@@ -1,0 +1,6 @@
+entity.import_analysis_codes.add_form:
+  route_name: 'entity.import_analysis_codes.add_form'
+  title: 'Add Import analysis codes'
+  appears_on:
+    - entity.import_analysis_codes.collection
+

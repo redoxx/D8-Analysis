@@ -1,0 +1,47 @@
+uuid: 87ae4b62-2c94-4179-b842-b8749e0a35b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.results.field_code
+    - field.field.node.results.field_label
+    - field.field.node.results.field_max_value
+    - field.field.node.results.field_min_value
+    - node.type.results
+  module:
+    - text
+    - user
+id: node.results.default
+targetEntityType: node
+bundle: results
+mode: default
+content:
+  field_code:
+    weight: 102
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_label:
+    weight: 103
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_max_value:
+    weight: 106
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_min_value:
+    weight: 105
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

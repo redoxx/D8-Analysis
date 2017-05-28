@@ -1,0 +1,21 @@
+uuid: a83a62b9-372e-4d6d-ba49-a7bac7ab9430
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_label
+    - node.type.results
+  module:
+    - text
+id: node.results.field_label
+field_name: field_label
+entity_type: node
+bundle: results
+label: Label
+description: 'Label of biological medical act'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

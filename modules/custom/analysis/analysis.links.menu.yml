@@ -1,0 +1,16 @@
+
+# Import analysis codes menu items definition
+entity.import_analysis_codes.collection:
+  title: 'Import analysis codes'
+  route_name: entity.import_analysis_codes.collection
+  description: 'List Import analysis codes (bundles)'
+  parent: system.admin_structure
+  weight: 99
+
+analysis.default_form:
+  title: 'Import medical codes'
+  route_name: analysis.default_form
+  description: 'A description for the menu entry'
+  parent: system.admin_config_system
+  weight: 99
+

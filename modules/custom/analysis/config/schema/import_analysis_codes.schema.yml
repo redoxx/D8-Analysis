@@ -1,0 +1,12 @@
+analysis.import_analysis_codes.*:
+  type: config_entity
+  label: 'Import analysis codes config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

@@ -1,0 +1,21 @@
+uuid: 6e1bda3e-78ae-49da-932e-868b81dfd7ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nom
+    - node.type.patient
+  module:
+    - text
+id: node.patient.field_nom
+field_name: field_nom
+entity_type: node
+bundle: patient
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

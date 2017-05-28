@@ -1,0 +1,20 @@
+uuid: bc095c9f-bbed-4d3b-9b68-1567b20ccd00
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_num_dossier
+field_name: field_num_dossier
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

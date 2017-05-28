@@ -1,0 +1,21 @@
+uuid: 00c41598-a8c7-4dd2-af53-5e0ab9065b2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telephone
+    - node.type.patient
+  module:
+    - telephone
+id: node.patient.field_telephone
+field_name: field_telephone
+entity_type: node
+bundle: patient
+label: Téléphone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

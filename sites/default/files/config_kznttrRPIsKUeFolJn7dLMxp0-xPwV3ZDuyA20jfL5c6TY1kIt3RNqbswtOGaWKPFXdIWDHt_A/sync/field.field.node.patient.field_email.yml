@@ -1,0 +1,19 @@
+uuid: ab604273-da5e-4b61-8895-8b76001a6bae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.patient
+id: node.patient.field_email
+field_name: field_email
+entity_type: node
+bundle: patient
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

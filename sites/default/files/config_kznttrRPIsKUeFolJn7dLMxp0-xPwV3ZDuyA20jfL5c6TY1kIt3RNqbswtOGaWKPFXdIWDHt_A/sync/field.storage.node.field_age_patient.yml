@@ -1,0 +1,20 @@
+uuid: e5c4ed89-c815-4ad1-8c4f-a386ea73b152
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_age_patient
+field_name: field_age_patient
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

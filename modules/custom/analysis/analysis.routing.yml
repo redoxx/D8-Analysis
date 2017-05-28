@@ -1,0 +1,11 @@
+
+analysis.default_form:
+  path: '/admin/config/analysis/default'
+  defaults:
+    _form: '\Drupal\analysis\Form\DefaultForm'
+    _title: 'DefaultForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

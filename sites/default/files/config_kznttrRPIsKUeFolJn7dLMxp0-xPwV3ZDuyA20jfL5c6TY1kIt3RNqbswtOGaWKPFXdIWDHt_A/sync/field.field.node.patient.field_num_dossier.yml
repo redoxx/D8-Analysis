@@ -1,0 +1,21 @@
+uuid: 029819cc-3a42-4fab-8953-b1e7e8be1147
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_num_dossier
+    - node.type.patient
+  module:
+    - text
+id: node.patient.field_num_dossier
+field_name: field_num_dossier
+entity_type: node
+bundle: patient
+label: 'N° dossier'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

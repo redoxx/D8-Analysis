@@ -1,0 +1,21 @@
+uuid: 0b30273a-fc75-409b-a71b-fbebd8276fe5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prenom
+    - node.type.patient
+  module:
+    - text
+id: node.patient.field_prenom
+field_name: field_prenom
+entity_type: node
+bundle: patient
+label: Prénom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

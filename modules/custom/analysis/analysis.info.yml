@@ -1,0 +1,5 @@
+name: Analysis
+type: module
+description: results of medical analysis
+core: 8.x
+package: Custom

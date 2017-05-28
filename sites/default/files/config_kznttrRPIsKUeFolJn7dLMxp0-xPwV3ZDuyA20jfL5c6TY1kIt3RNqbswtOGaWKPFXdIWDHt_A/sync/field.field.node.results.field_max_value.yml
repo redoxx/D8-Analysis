@@ -1,0 +1,21 @@
+uuid: 20b0c51d-a868-4580-8a9a-70250c62478f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_max_value
+    - node.type.results
+  module:
+    - text
+id: node.results.field_max_value
+field_name: field_max_value
+entity_type: node
+bundle: results
+label: 'Max value'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

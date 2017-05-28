@@ -1,0 +1,22 @@
+uuid: bd2acc70-3761-42eb-9b06-d69782517482
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.patient
+  module:
+    - text
+id: node.patient.body
+field_name: body
+entity_type: node
+bundle: patient
+label: Obervations
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

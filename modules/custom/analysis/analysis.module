@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains analysis.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function analysis_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the analysis module.
+    case 'help.page.analysis':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('results of medical analysis') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function analysis_theme() {
+  return [
+    'analysis' => [
+      'template' => 'analysis',
+      'render element' => 'children',
+    ],
+  ];
+}

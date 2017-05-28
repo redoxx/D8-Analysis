@@ -1,0 +1,29 @@
+uuid: 72d53fce-911c-49da-88df-85c1cb6edb5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resultats_analyses
+    - node.type.patient
+    - node.type.results
+id: node.patient.field_resultats_analyses
+field_name: field_resultats_analyses
+entity_type: node
+bundle: patient
+label: 'Résultats analyses'
+description: 'La liste des résultats des analyses'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      results: results
+    sort:
+      field: field_code.value
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

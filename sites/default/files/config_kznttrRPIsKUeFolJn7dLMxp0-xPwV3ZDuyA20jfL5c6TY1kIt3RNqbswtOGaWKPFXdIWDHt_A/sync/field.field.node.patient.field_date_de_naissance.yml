@@ -1,0 +1,21 @@
+uuid: de4664c2-b198-4a62-a364-9da20f564dd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_de_naissance
+    - node.type.patient
+  module:
+    - datetime
+id: node.patient.field_date_de_naissance
+field_name: field_date_de_naissance
+entity_type: node
+bundle: patient
+label: 'Date de naissance'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

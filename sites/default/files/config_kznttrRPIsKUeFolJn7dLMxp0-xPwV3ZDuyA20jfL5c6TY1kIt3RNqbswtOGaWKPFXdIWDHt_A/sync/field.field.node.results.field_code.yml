@@ -1,0 +1,21 @@
+uuid: a61fb366-e256-4024-9094-ec00ba8962c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code
+    - node.type.results
+  module:
+    - text
+id: node.results.field_code
+field_name: field_code
+entity_type: node
+bundle: results
+label: Code
+description: 'Code of biological medical act'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

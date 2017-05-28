@@ -1,0 +1,17 @@
+uuid: ef754e5a-cb2d-4d8b-8a6d-def0fe652604
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Patient
+type: patient
+description: 'Info patient'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

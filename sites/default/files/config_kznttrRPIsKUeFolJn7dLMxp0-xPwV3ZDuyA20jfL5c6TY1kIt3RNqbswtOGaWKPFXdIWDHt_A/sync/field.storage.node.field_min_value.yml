@@ -1,0 +1,20 @@
+uuid: 1f53ddd1-b746-4890-afb8-bd68be2251ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_min_value
+field_name: field_min_value
+entity_type: node
+type: text
+settings:
+  max_length: 25
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

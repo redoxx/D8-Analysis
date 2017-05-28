@@ -1,0 +1,21 @@
+uuid: dff4dc33-f697-45ce-8ae4-027a6cf84385
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_min_value
+    - node.type.results
+  module:
+    - text
+id: node.results.field_min_value
+field_name: field_min_value
+entity_type: node
+bundle: results
+label: 'Min value'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
